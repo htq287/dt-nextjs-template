@@ -1,6 +1,10 @@
 import React from 'react';
 
-class Home extends React.Component {
+interface Props {
+    appName: string;
+  }
+
+class MainView extends React.Component<Props> {
     render() {
         return (
             <div>Welcome to Hung Q. Truong 's homepage</div>
@@ -8,4 +12,4 @@ class Home extends React.Component {
     }
 }
 
-export default Home;
+export default MainView;

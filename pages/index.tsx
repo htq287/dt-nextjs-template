@@ -1,12 +1,15 @@
 import React from 'react';
-import Home from '../components/Home';
+import { connect } from 'react-redux';
+import Home from './home'
 
 class Index extends React.Component {
     render() {
         return (
-            <Home />
+            <div>
+                <Home />
+            </div>
         );
     }
 }
 
-export default Index;
+export default connect(state => state)(Index);
