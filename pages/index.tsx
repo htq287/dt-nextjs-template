@@ -1,9 +1,10 @@
 import React from 'react';
+import Home from '../components/Home';
 
 class Index extends React.Component {
     render() {
         return (
-            <div>Welcome Hung Q. Truong 's Homepage</div>
+            <Home />
         );
     }
 }
