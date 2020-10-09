@@ -1,4 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
+import {MakeStore, createWrapper, Context, HYDRATE} from 'next-redux-wrapper';
 //import thunk from 'redux-thunk';
 
 import { createLogger } from "redux-logger"
@@ -19,7 +20,16 @@ const getMiddleware = () => {
   }
 };
 
-export const store = (initialState = {}) => {
-  //return createStore(createRootReducer(), initialState, getMiddleware());
-  return createStore(createRootReducer(), initialState);
-};
+export interface State {
+}
+
+// export const store = (initialState = {}) => {
+//   //return createStore(createRootReducer(), initialState, getMiddleware());
+//   return createStore(createRootReducer(), initialState);
+// };
+
+// create a makeStore function
+const makeStore: MakeStore<State> = (context: Context) => createStore(createRootReducer());
+
+// export an assembled wrapper
+export const wrapper = createWrapper<State>(makeStore, {debug: true});
