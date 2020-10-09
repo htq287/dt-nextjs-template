@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var APP_LOAD = 'APP_LOAD';","map":{"version":3,"sources":["/Users/hungtq/Workspace/OpenSources/nextjs-redux-template/lib/constants/actionTypes.ts"],"names":["APP_LOAD"],"mappings":"AAAA,OAAO,IAAMA,QAAQ,GAAG,UAAjB","sourcesContent":["export const APP_LOAD = 'APP_LOAD';"]},"metadata":{},"sourceType":"module"}

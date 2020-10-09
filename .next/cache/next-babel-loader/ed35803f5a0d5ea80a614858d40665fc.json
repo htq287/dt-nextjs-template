@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nclass Index extends React.Component {\n  render() {\n    return __jsx(\"div\", null, \"Welcome To Homepage\");\n  }\n\n}\n\nexport default Index;","map":null,"metadata":{},"sourceType":"module"}

@@ -29,7 +29,7 @@ export interface State {
 // };
 
 // create a makeStore function
-const makeStore: MakeStore<State> = (context: Context) => createStore(createRootReducer());
+const makeStore: MakeStore = (context: Context) => createStore(createRootReducer());
 
 // export an assembled wrapper
-export const wrapper = createWrapper<State>(makeStore, {debug: true});
+export const wrapper = createWrapper(makeStore, {debug: true});

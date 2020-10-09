@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport { wrapper } from '../lib/store';\n\nvar _app = function _app(_ref) {\n  var Component = _ref.Component,\n      pageProps = _ref.pageProps;\n  return __jsx(Component, pageProps);\n};\n\nexport default wrapper.withRedux(_app);","map":null,"metadata":{},"sourceType":"module"}

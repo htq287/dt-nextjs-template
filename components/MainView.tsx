@@ -7,7 +7,7 @@ interface Props {
 class MainView extends React.Component<Props> {
     render() {
         return (
-            <div>Welcome to Hung Q. Truong 's homepage</div>
+        <div>Welcome to Hung Q. Truong 's homepage</div>
         )
     }
 }

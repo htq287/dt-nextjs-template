@@ -1,0 +1,1 @@
+{"ast":null,"code":"import '../constants/actionTypes';\nconst defaultState = {\n  appName: 'NextjsReduxTemplate'\n};\nexport default ((state = defaultState, action) => {\n  switch (action.type) {\n    default:\n      return state;\n  }\n});","map":null,"metadata":{},"sourceType":"module"}
