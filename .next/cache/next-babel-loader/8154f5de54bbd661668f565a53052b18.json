@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\n\nclass MainView extends React.Component {\n  render() {\n    return __jsx(\"div\", null, \"Welcome to Hung Q. Truong 's homepage\");\n  }\n\n}\n\nexport default MainView;","map":null,"metadata":{},"sourceType":"module"}

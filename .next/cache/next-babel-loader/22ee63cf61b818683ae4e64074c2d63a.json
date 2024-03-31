@@ -1,1 +1,0 @@
-{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport { connect } from 'react-redux'; //import Home from './home'\n\nclass Index extends React.Component {\n  render() {\n    return __jsx(\"div\", null, \"Hello!\");\n  }\n\n}\n\nexport default connect(state => state)(Index);","map":null,"metadata":{},"sourceType":"module"}

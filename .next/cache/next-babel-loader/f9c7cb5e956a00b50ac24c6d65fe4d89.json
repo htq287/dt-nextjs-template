@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { combineReducers } from 'redux';\nimport commonReducer from './reducers/commonReducer';\n\nconst createRootReducer = () => combineReducers({\n  common: commonReducer\n});\n\nexport default createRootReducer;","map":null,"metadata":{},"sourceType":"module"}
